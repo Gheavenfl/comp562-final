@@ -1,7 +1,7 @@
 def fourFolds():
     # split data into four folds
     # each fold sturctures as [train_messages, train_labels, validation_messages, validation_label]
-    # import pandas as pd
+    import pandas as pd
     import random
     from sklearn.feature_extraction.text import CountVectorizer
     # read csv file, generate list and messages as seperate labels
